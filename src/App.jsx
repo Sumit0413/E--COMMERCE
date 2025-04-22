@@ -5,6 +5,9 @@ import Women from './Pages/Women';
 import Mens from './Pages/Mens';
 import Kids from './Pages/Kids';
 import Accessories from './Pages/Accessories';
+import Login from "../src/Pages/Login"
+import Register from './Pages/Register';
+
 const App = () => {
   return (
     <>
@@ -15,6 +18,8 @@ const App = () => {
         <Route path="/Pages/Women" element={<Women />} />
         <Route path="/Pages/Kids" element={<Kids />} />
         <Route path="/Pages/Accessories" element={<Accessories />} />
+        <Route path="/auth/Login" element={<Login />} />
+        <Route path='/auth/Register' element={<Register />} />
       </Routes>
     </Router>
     </>

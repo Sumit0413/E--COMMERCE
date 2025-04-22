@@ -21,7 +21,7 @@ const Nav = () => {
           <Link to="/Pages/Accessories">
           <h1 className="text-md text-gray-500 font-semibold cursor-pointer">Accesories</h1>
           </Link>
-          <h1 className="text-md text-gray-500 font-semibold cursor-pointer">Gift Card</h1>
+         
         </div>
 
         <div>
@@ -32,7 +32,7 @@ const Nav = () => {
 
         <div className="flex justify-between items-center gap-5">
           <CiSearch className="text-3xl" />
-          <CiUser className="text-3xl" />
+          <Link to="/auth/Login"><CiUser className="text-3xl" /></Link>
           <FcLike className="text-3xl" />
           <IoBagOutline className="text-3xl" />
         </div>
