@@ -15,8 +15,12 @@ const Nav = () => {
           <Link to="/Pages/Mens">
           <h1 className="text-md text-gray-500 font-semibold cursor-pointer">Mens</h1>
           </Link>
+          <Link to="/Pages/Kids">
           <h1 className="text-md text-gray-500 font-semibold cursor-pointer">Kids</h1>
+          </Link>
+          <Link to="/Pages/Accessories">
           <h1 className="text-md text-gray-500 font-semibold cursor-pointer">Accesories</h1>
+          </Link>
           <h1 className="text-md text-gray-500 font-semibold cursor-pointer">Gift Card</h1>
         </div>
 

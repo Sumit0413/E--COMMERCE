@@ -37,11 +37,13 @@ const Hero = () => {
         <div className="flex flex-wrap mt-0.5 w-full overflow-hidden">
           {/* Kids */}
           <div className="w-1/2 relative border-2 border-white rounded-md overflow-hidden">
+          <Link to="/Pages/Kids">
             <img
               className="w-full h-full object-cover"
               src="https://sg.trtconcept.com/cdn/shop/files/Main_Page_Kids.jpg?v=1740562712&width=2000"
               alt="Kids"
             />
+            </Link>
            
           </div>
 
